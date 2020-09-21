@@ -32,7 +32,7 @@ class CreateTodoItemTest extends TestCase
             'due_date' => $dueDate->toDateString(),
         ]);
 
-        $response->assertStatus(200);
+        $response->assertRedirect(route('dashboard'));
 
         $this->assertDatabaseHas('todo_items', [
             'title' => 'This is a test title',
