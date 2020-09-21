@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb442a6-f52f-4a77-81bf-6bc07251da3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Todo/Responders/Responder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Todo/Responders/Responder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Todo/Responders/StoreTodoResponder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Todo/Responders/StoreTodoResponder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/CreateTodoItemTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateTodoItemTest.php" afterDir="false" />
-    </list>
+    <list default="true" id="cdb442a6-f52f-4a77-81bf-6bc07251da3c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +181,7 @@
       <updated>1599771218851</updated>
       <workItem from="1599771220689" duration="7669000" />
       <workItem from="1600459996795" duration="10619000" />
-      <workItem from="1600711386538" duration="6028000" />
+      <workItem from="1600711386538" duration="6248000" />
     </task>
     <servers />
   </component>
