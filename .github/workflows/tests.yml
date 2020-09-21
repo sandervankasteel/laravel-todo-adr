@@ -8,11 +8,20 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Start MySQL
+        run: sudo systemctl start mysql.service
+
+      - name: Create MySQL database
+        run: mysql -u root -password=root -e "CREATE DATABASE 'todo';"
+
       - name: Install PHP dependencies
         run: composer install --no-interaction --prefer-dist
 
       - name: Copy .env.ci
         run: cp .env.ci .env
+
+      - name: Populate seeded database
+        run: php artisan migrate --seed
 
       - name: Generate application keys
         run: php artisan key:generate
