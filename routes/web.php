@@ -21,10 +21,10 @@ Route::get('/', function () {
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->group(static function() {
-    Route::get('/dashboard', ShowUnfinishedTodoAction::class);
+    Route::get('/dashboard', ShowUnfinishedTodoAction::class)->name('dashboard');
 
     Route::get('/todo/create', CreateTodoAction::class);
     Route::post('/todo', StoreTodoItemAction::class);
-    Route::patch('/todo/{todoitem}', '');
-    Route::delete('/todo/{todoitem}', '');
+    Route::patch('/todo/{todoitem}');
+    Route::delete('/todo/{todoitem}');
 });
