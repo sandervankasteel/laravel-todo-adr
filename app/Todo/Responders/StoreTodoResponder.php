@@ -8,6 +8,6 @@ class StoreTodoResponder implements Responder
 {
     public function respond()
     {
-        return response(200);
+        return redirect(route('dashboard'))->with(['success_message', 'Successfully created']);
     }
 }
