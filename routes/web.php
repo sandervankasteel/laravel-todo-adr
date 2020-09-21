@@ -1,6 +1,8 @@
 <?php
 
 use App\Todo\Actions\CreateTodoAction;
+use App\Todo\Actions\ShowUnfinishedTodoAction;
+use App\Todo\Actions\StoreTodoItemAction;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,11 +21,10 @@ Route::get('/', function () {
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->group(static function() {
-    Route::get('/dashboard', function() {
-        return view('dashboard');
-    })->name('dashboard');
+    Route::get('/dashboard', ShowUnfinishedTodoAction::class);
 
     Route::get('/todo/create', CreateTodoAction::class);
-    Route::post('/todo/store');
-    Route::put('/todo/{todoitem}');
+    Route::post('/todo', StoreTodoItemAction::class);
+    Route::patch('/todo/{todoitem}', '');
+    Route::delete('/todo/{todoitem}', '');
 });

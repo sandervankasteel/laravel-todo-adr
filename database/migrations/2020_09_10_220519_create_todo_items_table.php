@@ -18,6 +18,7 @@ class CreateTodoItemsTable extends Migration
             $table->text('title');
             $table->longText('description');
             $table->dateTimeTz('due_date');
+            $table->boolean('checked')->default(false);
             $table->unsignedBigInteger('user_id');
             $table->timestamps();
 

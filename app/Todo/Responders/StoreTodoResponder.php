@@ -4,11 +4,10 @@
 namespace App\Todo\Responders;
 
 
-class CreateTodoResponder implements Responder
+class StoreTodoResponder implements Responder
 {
-
     public function respond()
     {
-        return view('todo/create');
+        return response(200);
     }
 }

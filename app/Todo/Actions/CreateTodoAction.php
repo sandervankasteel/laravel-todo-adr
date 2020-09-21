@@ -6,7 +6,6 @@ use App\Todo\Responders\CreateTodoResponder;
 
 class CreateTodoAction
 {
-
     public $responder;
 
     public function __construct(CreateTodoResponder $responder)

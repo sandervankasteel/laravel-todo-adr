@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb442a6-f52f-4a77-81bf-6bc07251da3c" name="Default Changelist" comment="" />
+    <list default="true" id="cdb442a6-f52f-4a77-81bf-6bc07251da3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Todo/Actions/ShowUnfinishedTodoAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Todo/Actions/StoreTodoItemAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Todo/Repositories/TodoRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Todo/Responders/Responder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Todo/Responders/ShowUnfinishedTodoResponder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Todo/Responders/StoreTodoResponder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/todo/show_unfinished.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/TodoItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/TodoItem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Todo/Actions/CreateTodoAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Todo/Actions/CreateTodoAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Todo/Responders/CreateTodoResponder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Todo/Responders/CreateTodoResponder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_10_220519_create_todo_items_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_10_220519_create_todo_items_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -153,6 +172,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -175,6 +196,8 @@
       <option name="presentableId" value="Default" />
       <updated>1599771218851</updated>
       <workItem from="1599771220689" duration="7669000" />
+      <workItem from="1600459996795" duration="10619000" />
+      <workItem from="1600711386538" duration="3824000" />
     </task>
     <servers />
   </component>
@@ -182,21 +205,40 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="776" y="229" width="406" height="638" key="#com.intellij.ide.util.MemberChooser" timestamp="1600713835183">
+      <screen x="48" y="48" width="1872" height="1032" />
+    </state>
+    <state x="776" y="229" width="406" height="638" key="#com.intellij.ide.util.MemberChooser/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600713835183" />
     <state x="583" y="218" width="348" height="458" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599775865684">
       <screen x="0" y="34" width="1536" height="830" />
     </state>
     <state x="583" y="218" width="348" height="458" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.34.1536.830@0.34.1536.830" timestamp="1599775865684" />
-    <state x="471" y="165" width="607" height="566" key="NewPhpClassDialog" timestamp="1599775931239">
-      <screen x="0" y="34" width="1536" height="830" />
+    <state x="622" y="211" width="623" height="564" key="NewPhpClassDialog" timestamp="1600713823563">
+      <screen x="48" y="48" width="1872" height="1032" />
     </state>
     <state x="471" y="165" width="607" height="566" key="NewPhpClassDialog/0.34.1536.830@0.34.1536.830" timestamp="1599775931239" />
-    <state x="564" y="373" width="397" height="149" key="NewPhpFileDialog" timestamp="1599776790249">
-      <screen x="0" y="34" width="1536" height="830" />
+    <state x="622" y="211" width="623" height="564" key="NewPhpClassDialog/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600713823563" />
+    <state x="735" y="470" width="397" height="149" key="NewPhpFileDialog" timestamp="1600467304126">
+      <screen x="48" y="48" width="1872" height="1032" />
     </state>
     <state x="564" y="373" width="397" height="149" key="NewPhpFileDialog/0.34.1536.830@0.34.1536.830" timestamp="1599776790249" />
-    <state x="431" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1599778018830">
-      <screen x="0" y="34" width="1536" height="830" />
+    <state x="735" y="470" key="NewPhpFileDialog/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600467304126" />
+    <state x="473" y="185" key="SettingsEditor" timestamp="1600466842418">
+      <screen x="48" y="48" width="1872" height="1032" />
+    </state>
+    <state x="473" y="185" key="SettingsEditor/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600466842418" />
+    <state x="674" y="354" width="610" height="389" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1600468774160">
+      <screen x="48" y="48" width="1872" height="1032" />
+    </state>
+    <state x="674" y="354" width="610" height="389" key="com.jetbrains.php.test.PhpNewTestDialog/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600468774160" />
+    <state x="648" y="252" key="run.anything.popup" timestamp="1600463795671">
+      <screen x="48" y="48" width="1872" height="1032" />
+    </state>
+    <state x="648" y="252" key="run.anything.popup/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600463795671" />
+    <state x="573" y="236" width="819" height="844" key="search.everywhere.popup" timestamp="1600714701252">
+      <screen x="48" y="48" width="1872" height="1032" />
     </state>
     <state x="431" y="185" width="672" height="678" key="search.everywhere.popup/0.34.1536.830@0.34.1536.830" timestamp="1599778018830" />
+    <state x="573" y="236" width="819" height="844" key="search.everywhere.popup/48.48.1872.1032/1920.0.1920.1080@48.48.1872.1032" timestamp="1600714701252" />
   </component>
 </project>
