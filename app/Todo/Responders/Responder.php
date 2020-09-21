@@ -2,8 +2,6 @@
 
 namespace App\Todo\Responders;
 
-use LogicException;
-
 interface Responder
 {
 
